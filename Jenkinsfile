@@ -1,4 +1,5 @@
-node {
+agent any
+stages {
 	stage('Build') {
 		echo "Build"
 		sh 'mvn --version'
