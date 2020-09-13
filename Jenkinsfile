@@ -2,7 +2,7 @@ agent any
 stages {
 	stage('Build') {
 		echo "Build"
-		sh 'mvn --version'
+		//sh 'mvn --version'
 	}
 	stage('Test') {
 		echo "Test"
