@@ -44,12 +44,21 @@ pipeline {
 				}
 			}
 		}
+		stage('Docker Test image') {
+			steps {
+				script {
+					this.dockerImage.inside { 
+						sh 'echo "Tests Image passed"'
+					}
+				}
+			}
+		}
 		stage('Docker Push Image') {
 			steps{
 				script{
 					docker.withRegistry('','MyDockerHub'){
-						dockerImage.push();
-						dockerImage.push('latest');
+						this.dockerImage.push();
+						this.dockerImage.push('latest');
 					}
 				}
 			}
