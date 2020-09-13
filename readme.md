@@ -7,7 +7,7 @@
 - Step 01 - Introduction and Launching Jenkins as Docker Container -ok
 - Step 02 - Initializing Jenkins Plugins and Creating Github Repo -ok
 - Step 03 - Setting up Docker and Maven in Jenkins and First Pipeline Run - ok
-- Step 04 - Understanding Scripted Pipelines in Jenkins
+- Step 04 - Understanding Scripted Pipelines in Jenkins- ok
 - Step 05 - Understanding Declarative Pipelines in Jenkins - Stages
 - Step 06 - Using Docker Images as Jenkins Pipeline Agents
 - Step 07 - Review Pipeline Syntax and Understanding Variables
